@@ -2,8 +2,36 @@ languageCode: ja
 title: momopark
 theme: PaperMod
 baseURL: https://usamomokawa.github.io
+enableEmoji: true
 
 author:
   name: UsaMomokawa
   job: Data enginner
   location: Japan
+
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+
+params:
+  env: production
+  homeInfoParams:
+    Title: "@UsaMomokawa"
+    Content: Data Engineer
+  socialIcons:
+    - name: twitter
+      url: https://twitter.com/UsaMomokawa
+    - name: github
+      url: https://github.com/UsaMomokawa
+  defaultTheme: light
+  ShowCodeCopyButtons: true
+  assets:
+    disableHLJS: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
