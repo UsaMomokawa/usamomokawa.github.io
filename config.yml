@@ -1,6 +1,7 @@
 languageCode: ja
 title: momopark
 theme: PaperMod
+baseURL: https://usamomokawa.github.io/momopark
 
 author:
   name: UsaMomokawa
