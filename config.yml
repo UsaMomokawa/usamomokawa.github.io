@@ -29,8 +29,7 @@ params:
       url: https://usamomokawa.github.io/posts/index.xml
   defaultTheme: light
   ShowCodeCopyButtons: true
-  assets:
-    disableHLJS: true
+
 
 outputs:
   home:
