@@ -25,6 +25,8 @@ params:
       url: https://twitter.com/UsaMomokawa
     - name: github
       url: https://github.com/UsaMomokawa
+    - name: rss
+      url: https://usamomokawa.github.io/posts/index.xml
   defaultTheme: light
   ShowCodeCopyButtons: true
   assets:
@@ -34,4 +36,4 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # is necessary
+    - JSON
